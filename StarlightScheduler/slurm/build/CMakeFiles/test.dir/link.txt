@@ -1,0 +1,1 @@
+/usr/bin/cc  -g    CMakeFiles/test.dir/src/test.c.o  -o ../bin/test  -L/root/workspace/src/starlight-scheduler/slurm/lib64 -rdynamic ../lib64/libslurm_wrapper.a -lslurm -Wl,-rpath,/root/workspace/src/starlight-scheduler/slurm/lib64 

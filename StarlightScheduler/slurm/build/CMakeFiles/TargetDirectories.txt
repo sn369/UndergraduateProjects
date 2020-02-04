@@ -1,0 +1,2 @@
+/root/workspace/src/starlight-scheduler/slurm/build/CMakeFiles/slurm_wrapper.dir
+/root/workspace/src/starlight-scheduler/slurm/build/CMakeFiles/test.dir

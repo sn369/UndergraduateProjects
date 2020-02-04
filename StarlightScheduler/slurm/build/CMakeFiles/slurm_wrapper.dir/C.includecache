@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/slurm/slurm.h
+slurm/slurm_errno.h
+-
+inttypes.h
+-
+netinet/in.h
+-
+stdbool.h
+-
+stdio.h
+-
+sys/types.h
+-
+time.h
+-
+unistd.h
+-
+
+../include/slurm/slurm_errno.h
+errno.h
+-
+
+../include/slurm/slurm_wrapper.h
+
+/root/workspace/src/starlight-scheduler/slurm/src/slurm_wrapper.c
+stdlib.h
+-
+string.h
+-
+slurm/slurm.h
+-
+slurm/slurm_wrapper.h
+-
+

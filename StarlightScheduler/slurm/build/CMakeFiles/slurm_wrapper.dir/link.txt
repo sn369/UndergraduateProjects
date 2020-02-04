@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib64/libslurm_wrapper.a  CMakeFiles/slurm_wrapper.dir/src/slurm_wrapper.c.o
+/usr/bin/ranlib ../lib64/libslurm_wrapper.a
